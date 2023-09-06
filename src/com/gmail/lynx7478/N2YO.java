@@ -39,6 +39,7 @@ public class N2YO
 	
 	public String grabJson()
 	{
+		//TODO: Change this. For testing purposes URL is set to grab TLE.
 		String sUrl = "https://api.n2yo.com/rest/v1/satellite/tle/"+NORADId+"&apiKey="+apiKey;
 		
 		URL url = null;
